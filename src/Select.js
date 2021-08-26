@@ -37,7 +37,7 @@ const SelectComponent = () => {
       <p>
         You have selected{' '}
         <span style={{ fontWeight: 'bold' }}>{values.value}</span> whose id is
-        spa <span style={{ fontWeight: 'bold' }}>{values.id}</span>
+        <span style={{ fontWeight: 'bold' }}>{values.id}</span>
       </p>
       <Select
         defaultValue={[colourOptions[2], colourOptions[3]]}
