@@ -36,7 +36,7 @@ const SelectComponent = () => {
       />
       <p>
         You have selected{' '}
-        <span style={{ fontWeight: 'bold' }}>{values.value}</span> whose id is
+        <span style={{ fontWeight: 'bold' }}>{values.value}</span> whose id is{' '}
         <span style={{ fontWeight: 'bold' }}>{values.id}</span>
       </p>
       <Select
